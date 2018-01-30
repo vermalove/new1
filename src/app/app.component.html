@@ -1,0 +1,26 @@
+
+<div class="jumbotron text-center">
+  <h1> SEARCH FACEBOOK PAGE</h1>
+  <form action = "" method ="POST">
+ 
+    <input type="text" ngmodel="location" placeholder="ENTER PAGE ID eg {{title}}">
+	{{location}}
+      </form> 
+	 <b> ACCESS TOKEN VALID FOR </b>
+	DAYS
+</div>
+ 
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Posts</h3>
+<app-photos></app-photos>
+    </div>
+     <div class="col-sm-4">
+      <h3>Photos</h3>
+      <app-post></app-post>
+     </div>
+      <div class="col-sm-4">
+      <h3>Videos</h3>
+      <app-videos></app-videos>
+      </div>
